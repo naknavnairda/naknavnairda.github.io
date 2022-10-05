@@ -33,58 +33,75 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#">Projects</a></li>
-				  <li><a href="#publications">Publications</a></li> 
-				  <li><a href="#">CV</a></li> 
+				  <li><a href="index.html"><h3>Home</h3></a></li>
+				  <li><a href="#projects"><h3>Projects</h3></a></li>
+				  <li><a href="#pubs"><h3>Publications</h3></a></li> 
+				  <li><a href="#cv"><h3>CV</h3></a></li> 
 		  </ul>
 		</div>
 	  </div>
 	</nav>
   
+	
+	
   <!-- Page Content -->
     <div class="container">
 
         <div class="row">
 
+           <!-- Contact Info on the Sidebar -->
+                <div class="col-md-4">
+                <img class="img-responsive" src="cropped.jpg" alt=""><br>
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Adrian van Kan</b></div><br>
+                <p><b>avankan at berkeley.edu</b><br>
+                <p>Department of Physics<br>
+                University of California at Berkeley<br>
+                USA<br>
+                </p>
+
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+              <dd><a href="https://scholar.google.com/citations?user=IWD188kAAAAJ&hl=en&oi=ao"><img src="google_scholar_icon.png" alt="GS" style="width:70px;height:70px;"></a><dd><br/>
+              <dd><a href="https://www.researchgate.net/profile/Adrian-Van-Kan"><img src="researchgate.png" alt="RG" style="width:70px;height:70px;"></a><dd><br/>
+              <dd><a href="https://orcid.org/0000-0002-1217-3609"><img src="orcid.png" alt="ORCID" style="width=120px;height:60px;"></a><dd><br/>
+            </div>
+                </div>
+
             <!-- Entries Column -->
             <div class="col-md-8" style="height: 20h;">
                 
                 <!-- Main Image -->
-                <img class="img-responsive" src="movie_cropped_resized.gif" alt=""><br>
-                
-                <div style="margin-top:3%; text-align:justify;">                
-			<p>I am a physicist interested in oceanic and atmospheric fluid mechanics, in particular turbulence, and other problems in nonlinear dynamics. </p> <p> If you have questions about my work or possible collaborations, please get in touch!  </p>
+                <img class="img-responsive" src="phytoplankton_zoom.jpg" alt="">
+                <div style="margin-top:3%; text-align:justify;">     
+                <h3> <b>About Me</b> </h3>           
+			<p style="font-size:20px">Hi! I'm a physicist passionate about fluid mechanics, 
+                           specifically turbulence, and other topics in nonlinear and stochastic dynamics. My primary experience is in using numerical simulations, modelling and theory of geophysical (oceanic and atmospheric) turbulence to understand self-organisation and the formation of structures (e.g. hurricane-like vortices) in these flows.
+                            </p>
+                            <p style="font-size:20px">I'm currently a Postdoc working at UC Berkeley under the supervision of Prof. <a href=https://physics.berkeley.edu/people/faculty/edgar-knobloch>Edgar Knobloch</a>, co-supervised by <a href=https://www.colorado.edu/amath/keith-julien-0>Keith Julien</a> (CU Boulder). I am studying instability-driven turbulence and rotating convection. During my PhD at Ecole normale supérieure (ENS), working with <a href=http://www.lps.ens.fr/~alexakis/> Alexandros Alexakis</a> and <a href=http://www.lps.ens.fr/~brachet/files/Home.html>Marc Brachet</a> I explored nonequilibrium phase transitions in rotating and stratified turbulence, and in turbulence confined within thin layers. </p> <br><br><br><br>
+
                 </div>
             </div> 
+            </div>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------!>
+	<!-- /.container -->
+                <div class="col-md-8" style="height: 60vh;">
+	      	      <br/>
+                      <h2 id="projects"><b>Projects</b></h2>
+                      
+		      <strong>Coming soon...</strong>
 
-            <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Adrian van Kan</b></div><br>
-                <p><b>avankan AT berkeley.edu</b><br>
-                <p>Department of Physics<br>
-                University of California, Berkeley<br>
-                USA<br>
-                </p>
-            </div>
+        </div>   
             
-            
-            <!-- Links on the Sidebar -->
-            <div class="col-md-4" style="margin-top:2%">
-              <dd><a href="https://scholar.google.com/citations?user=IWD188kAAAAJ&hl=en&oi=ao">Google Scholar</a></dd> 
-              <dd><a href="https://www.researchgate.net/profile/Adrian-Van-Kan">ResearchGate</a></dd>
-            </div>
-            
-            
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------!>
             <!-- Publications -->
-            <div class="col-md-8" style="height: 10vh;">    
-		<h2> <!Currently Submitted Papers>  </h2> 
-		<h2> Currently Submitted Papers  </h2>
+            <div class="col-md-8" style="height: 450vh;">    
 
+		<h2 id="pubs"> <b>Publications</b>  </h2>
+		<h3> Currently Submitted Papers </h3> 
 		<! Submitted Papers >
 	<ol reversed>
 
-                 <li>
+                 <li style="font-size:16px">
                  <u>A.van Kan</u>, J. Jegminat, J. Donges <br>
            ``Estimating nonlinear stability from time series data" <br>
                  (2022)
@@ -93,7 +110,7 @@
            <br><br>
            </li>
 		
-                 <li>
+                 <li style="font-size:16px">
                  <u>A.van Kan</u>, J. Jegminat, J. Donges <br>
            ``Spontaneous suppression of inverse energy cascade in instability-driven 2D turbulence" <br>
                  (2022)
@@ -104,13 +121,11 @@
 
 	</ol>
 
-<h2> Published Papers  </h2>
-
-
+<h3> Published Papers  </h3>
 <ol reversed>
-<b> 2022 </b><br><br>
+<h4> <b> 2022</b> </h4>
 
-   <li>
+   <li style="font-size:16px">
        X.M. de Wit, <u>A.van Kan</u>, A. Alexakis <br>
        ``Bistability of the large-scale dynamics in quasi-two-dimensional turbulence" <br>
        J. Fluid Mech. 939, R2 (2022)
@@ -120,7 +135,7 @@
        <br><br>
    </li>
 
-   <li>
+   <li style="font-size:16px">
        <u>A.van Kan</u>, A. Alexakis, M.E. Brachet <br>
        ``Geometric microcanonical theory of two-dimensional Truncated Euler flows'' <br>
        Phil. Trans. R. Soc. A.380. 20210049  (2022)
@@ -128,11 +143,11 @@
        [<a href="http://doi.org/10.1098/rsta.2021.0049"target="_blank"><b>online</b></a>],
        [<a href="PAPERS/2DEuler.pdf"target="_blank"><b>pdf</b></a>].
    	 <br><br>
-   </li>
+   </li >
 	
-<b> 2021 </b><br><br>
+<h4> <b> 2021</b> </h4>
 
-<li>
+<li style="font-size:16px">
     <u>A.van Kan</u>, A. Alexakis <br>
     ``Energy cascades in rapidly rotating and stratified turbulence within elongated domains'' <br>
     J. Fluid Mech. 933, A11 (2021)
@@ -143,7 +158,7 @@
     </li>
 
 
-    <li>
+    <li style="font-size:16px">
     <u>A.van Kan</u>, A. Alexakis, M.E. Brachet <br>
     ``Lévy On-Off Intermittency'' <br>
     Phys. Rev. E <b>103</b>, 052115 (2021)
@@ -153,7 +168,7 @@
     <br><br>
     </li>
 
-    <li>
+    <li style="font-size:16px">
     <u>A.van Kan</u>, A. Alexakis, M.E. Brachet <br>
     ``Intermittency of three-dimensional perturbations in a point-vortex model'' <br>
     Phys. Rev. E <b>103</b>, 053102 (2021)
@@ -163,9 +178,9 @@
     <br><br>
     </li>
 
-<b> 2020 </b><br><br>
+<h4> <b> 2020</b> </h4>
 
-    <li>
+    <li style="font-size:16px">
      <u>A.van Kan</u>, A. Alexakis<br>
     ``Critical transition in fast-rotating turbulence within highly elongated domains" <br>
     Journal of Fluid Mechanics <b>899</b>, A33 (2020)
@@ -175,7 +190,7 @@
     <br><br>
     </li>
 
-    <li>
+    <li style="font-size:16px">
      Basile Poujol, <u>A.van Kan</u>, A. Alexakis<br>
     ``Role of the forcing dimensionality in thin-layer turbulent energy cascades" <br>
     Phys. Rev. Fluids <b>5</b>, 064610 (2020)
@@ -185,10 +200,10 @@
     <br><br>
     </li>
 
-<b> 2019 </b><br><br>
+<h4> <b> 2019</b> </h4>
 
 
-    <li>
+    <li style="font-size:16px">
      <u>A.van Kan</u>, T. Nemoto, A. Alexakis,  <br>
     ``Rare transitions to thin-layer turbulent condensates" <br>
      Journal of Fluid Mechanics <b>878</b>,  356-369 (2019)
@@ -199,7 +214,7 @@
     </li>
 
 
-    <li>
+    <li style="font-size:16px">
      <u>A.van Kan</u>, A. Alexakis<br>
     ``Condensates in thin-layer turbulence" <br>
      Journal of Fluid Mechanics <b>864</b>, 490-518 (2019)
@@ -209,8 +224,8 @@
     <br><br>
     </li>
 
-<b> 2016 </b><br><br>
-   <li>
+<h4> <b> 2016</b> </h4>
+   <li style="font-size:16px">
    <u>A.van Kan</u>, J. Jegminat, J. Donges, J. Kurths <br>
    ``Constrained Basin stability for studying transient phenomena in dynamical systems" <br>
      Physical Review E 93.4 (2016): 042205.
@@ -220,9 +235,9 @@
     <br><br>
    </li> 
 
-<b> 2015 </b><br><br>
+<h4> <b> 2015</b> </h4>
 
-    <li>
+    <li style="font-size:16px">
     S. Wang, R. Toumi, A.Czaja, <u>A.van Kan</u> <br>
     ``An analytic model of tropical cyclone wind profiles" <br>
     Quarterly Journal of the Royal Meteorological Society 141.693 (2015) 
@@ -234,16 +249,119 @@
 
     </div>
 
-            
-    </div>
+     <!-- codes -->
+     <!--            <div class="col-md-8" style="height: 100vh,margin-top:100vh;"> -->
+     <div class="col-md-8" style="height:auto;">
 
+      <style>
+      .bottom-three {
+       margin-bottom: 3cm;
+	      }
+      </style>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------!>	      
+	<!-- /.container -->
+                <div class="col-md-8" style="height: 70vh;">
+	      	      <br/>
+                      <h2 id="cv"><b>Curriculum Vitae</b></h2>
+		      <h4><b>Employment</b></h4>
+		      <ul>
+			<li style="font-size:16px"><strong>2021-present:</strong> Postdoctoral Researcher @ Physics Department, UC Berkeley. Working under the supervision of Professor Edgar Knobloch, co-supervision by Professor Keith Julien (CU Boulder) </li>
+		      </ul>
+		      <h4><b>Education</b></h4>
+		      <ul>
+			<li style="font-size:16px"> Master of Science, Physics, Fakultät für Physik und Astronomie, Universität Heidelberg.</br> <strong> Thesis Supervisor:</strong> Alexandros Alexakis (ENS Paris)</li> <br/> 
+	     		<li style="font-size:16px"> Master of Advanced Studies, Mathematics, Department of Applied Mathematics and Theoretical Physics, University of Cambridge</br> <strong> Essay supervisor:</strong> <a href=https://www.eas.cornell.edu/faculty-directory/peter-hitchcock>Peter Hitchcock</a></li><br/>
+	     		<li style="font-size:16px"> Bachelor of Science, Fakultät für Physik und Astronomie, Universität Heidelberg.<br>
+	     		Including Erasmus exchange at Imperial College London
+	     		 </br> <strong> Third year project supervisor: </strong><a href= https://www.imperial.ac.uk/people/a.czaja>Dr. Arnaud Czaja</a> (ICL)	     
+	     		 </br> <strong> Thesis supervisor: </strong><a href= https://www.physik.uni-heidelberg.de/user/klevansky>Prof. Sandra Klevansky</a> (Heidelberg) <br/><br>
+		      <p> <a href="CV.pdf"> Here</a> you can download a detailed PDF version of my CV.              </p>
+		      </ul><br><br><br>
+		      
+		      <h2> Collaborators </h2>
+		      <p style="font-size:17px">Below you find a list of my past and present collaborators, in reverse chronological order, grouped by the institution I was at when the collaboration started (UC Berkeley, ENS Paris, Universität Heidelberg, Imperial College London). </p><br/>
 
+                     <a style="font-size:16px"
+                        href="http://physics.berkeley.edu/people/faculty/edgar-knobloch"
+                        title="Edgar Knobloch's Research Homepage" 
+                        class="extlink"
+                        target="_blank">Prof. Edgar Knobloch</a> (University of California, Berkeley)
+		      <br>
+                     <a style="font-size:16px"
+                        href="https://amath.colorado.edu/faculty/julien/index.html"
+                        title="Keith Julien's page" 
+                        class="extlink"
+                        target="_blank">Prof. Keith Julien</a> (University of Colorado, Boulder) 
+                     <br>
+                       <a style="font-size:16px"
+                        href="https://sites.google.com/site/bfavierhome/"
+                        title="Benjamin Favier's page" 
+                        class="extlink"
+                        target="_blank">Dr. Benjamin Favier</a> (CNRS, IRPHE - Aix-Marseille University)
+		     <br><br/>
+                     <a style="font-size:16px"
+                        href="http://www.lps.ens.fr/~alexakis/"
+                        title="Alexandros Alexakis's page" 
+                        class="extlink"
+                        target="_blank">Dr. Alexandros Alexakis</a> (CNRS, Ecole normale supérieure, Paris) 
+                     <br>
+                     <a style="font-size:16px"
+                        href="http://www.lps.ens.fr/~brachet/files/Home.html"
+                        title="Marc Brachet's page" 
+                        class="extlink"
+                        target="_blank">Dr. Marc Brachet</a> (CNRS, Ecole normale supérieure, Paris) 
+                     <br>
+                     <a style="font-size:16px"
+                        href="http://www.lps.ens.fr/~petrelis/index.html"
+                        title="Francois Pétrélis's page" 
+                        class="extlink"
+                        target="_blank">Dr. François Pétrélis</a> (CNRS, Ecole normale supérieure, Paris) 
+                     <br>
+                     <a style="font-size:16px"
+                        href="http://www.lps.ens.fr/~alexakis/"
+                        title="Alexandros Alexakis's page" 
+                        class="extlink"
+                        target="_blank">Dr. Takahiro Nemoto</a> (Kyoto University) 
+                     <br>  <br>
+                     <a style="font-size:16px"
+                        href="https://www.pik-potsdam.de/members/kurths"
+                        title="Jürgen Kurths's page" 
+                        class="extlink"
+                        target="_blank"> Prof. Dr. Dr. h.c. mult. Jürgen Kurths </a> (PIK, Potsdam)
+                     <br>
+                     <a style="font-size:16px"
+                        href="https://www.pik-potsdam.de/members/donges"
+                        title="Jonathan Donge's page" 
+                        class="extlink"
+                        target="_blank">Dr. Jonathan Donges</a> (PIK, Potsdam)
+                     <br><br/>               
+                     <a style="font-size:16px"
+                        href="https://www.imperial.ac.uk/people/a.czaja"
+                        title="Arnaud Czaja's page" 
+                        class="extlink"
+                        target="_blank">Dr. Arnaud Czaja</a> (Imperial College, London) 
+                     <br>       
+                     <a style="font-size:16px"
+                        href="https://www.imperial.ac.uk/people/r.toumi"
+                        title="Ralf Toumi's page" 
+                        class="extlink"
+                        target="_blank">Prof. Ralf Toumi</a> (Imperial College, London) 
+                     <br>
+
+        </div>
+           	
+         <style>
+      .bottom-three {
+       margin-bottom: 3cm;
+	      }
+      </style>
+	
     </div>
-    <!-- /.container -->
-    
-    <!-- Other people may like it too! -->
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
-    
+    </div>
+	     
+	    	    
 </body>
+	
 
 </html>
+
